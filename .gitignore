@@ -1,0 +1,18 @@
+# Environment variables with secrets (SKAIL_KEY, SKAIL_NAMESPACE, ...)
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+
+# skail build output (bundle + manifest)
+.skail/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
